@@ -130,10 +130,7 @@ INSERT INTO works_with VALUES(105, 406, 130000);
 
 ```
 
-
 ### ANALYSIS 
-
-
 QUESTION 1 : The names and the sales of employees that sold more than 30000
 ```MYSQL
 SELECT first_name,Last_name,total_sales FROM employee JOIN works_with on employee.emp_id=works_with.Emp_id WHERE total_sales>30000
